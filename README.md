@@ -52,7 +52,7 @@ Enjoy the weirdest Python experience of your life. Don’t say I didn’t warn y
 You somehow want to clean up your mess and go back to **normal Python**? Fine, here’s how you do it:
 
 ```bash
-hornycompile <source.hpy> <output.py>
+hornydecompile <source.hpy> <output.py>
 ```
 
 This will take your **atrocious** `.hpy` code and convert it into standard Python 3, because somehow, you might need it.
@@ -62,7 +62,7 @@ This will take your **atrocious** `.hpy` code and convert it into standard Pytho
 You want to **ruin** your `.py` code and turn it into something more **insane**? Here’s how:
 
 ```bash
-dehornify <source.py> <output.hpy>
+hornycompile <source.py> <output.hpy>
 ```
 
 This will convert a **perfectly fine** Python file into **horny, furry nonsense**. Be proud of your bad decisions.
