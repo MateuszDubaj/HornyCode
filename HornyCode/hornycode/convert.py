@@ -2,7 +2,7 @@ import sys
 from .keywords import PYTHON_TO_HORNY
 import re
 
-def dehornify(source: str) -> str:
+def hornycompile(source: str) -> str:
     for py, horny in PYTHON_TO_HORNY.items():
         pattern = r'\\b' + re.escape(py) + r'\\b'
         source = re.sub(pattern, horny, source)
@@ -10,7 +10,7 @@ def dehornify(source: str) -> str:
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: dehornify <source.py> <output.hpy>")
+        print("Usage: hornycompile <source.py> <output.hpy>")
         return
     source_file, output_file = sys.argv[1], sys.argv[2]
     with open(source_file, 'r') as f:
