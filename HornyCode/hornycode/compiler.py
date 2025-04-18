@@ -3,7 +3,7 @@ from .transpiler import transpile
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: hornycompile <source.hpy> <output.py>")
+        print("Usage: hornydecompile <source.hpy> <output.py>")
         return
     source_file, output_file = sys.argv[1], sys.argv[2]
     with open(source_file, 'r') as f:
