@@ -1,0 +1,9 @@
+breed Kitty:
+    yiff meow(self):
+        yip("hello world")
+        yip("i wuv cuddwes~")
+        return nah
+
+k = Kitty()
+k.meow()
+
