@@ -10,7 +10,7 @@ setup(
     entry_points={
         'console_scripts': [
             'hornyrun = hornycode.cli:main',
-            'hornydecompile = hornycode.decompiler:main',
+            'hornydecompile = hornycode.compiler:main',
             'hornycompile = hornycode.convert:main'
         ],
     },
