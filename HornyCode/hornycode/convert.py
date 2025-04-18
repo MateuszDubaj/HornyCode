@@ -2,7 +2,7 @@ import sys
 from .keywords import PYTHON_TO_HORNY
 import re
 
-def hornycompile(source: str) -> str:
+def dehornify(source: str) -> str:
     for py, horny in PYTHON_TO_HORNY.items():
         pattern = r'\\b' + re.escape(py) + r'\\b'
         source = re.sub(pattern, horny, source)
